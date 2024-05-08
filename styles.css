@@ -1,0 +1,419 @@
+a.btn {
+  background: linear-gradient(30deg, #128eed, #b9ff66);
+  color: white;
+  border: none;
+  transition: transform 100ms;
+}
+a.btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(30deg, #b9ff66, #128eed);
+  text-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+  color: white;
+}
+a.btn:active {
+  color: white;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 150ms;
+}
+#testimonials {
+  background: linear-gradient(30deg, #128eed, #b9ff66);
+}
+#myaccount-dropdown {
+  min-width: 250px;
+}
+#profile-pic {
+  width: 80px;
+  border-radius: 100%;
+  margin: auto;
+}
+#profile-account a.disabled {
+  color: black;
+}
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-caption h1,
+.carousel-caption p {
+  text-shadow: 0 0 10px black;
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+#socials ul a:hover {
+  color: #38b6ff;
+}
+
+#footer-footer a {
+  text-decoration: none;
+  color: #777;
+}
+
+#footer-footer a:hover {
+  color: #38b6ff;
+}
+#socmed-icon-list :not(:first-child) {
+  margin-left: 10px;
+}
+.footer ul a:hover {
+  color: #38b6ff;
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#about h1,
+#hobbies h1,
+#gallery h1 {
+  font-weight: 900;
+  color: #38b6ff;
+  margin-bottom: 0.5em;
+}
+.footer ul a {
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.leftnavbar > li.divider {
+  border-right: 2px solid #ffffff66;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.navbar {
+  background: linear-gradient(30deg, #128eed, #b9ff66);
+  position: fixed !important; /* couldn't find style conflict. code needs important. */
+  z-index: 1030;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+#mission {
+  background: linear-gradient(
+    30deg,
+    rgba(18, 142, 237, 0.05),
+    rgba(255, 105, 108, 0.05)
+  );
+}
+
+.navbar,
+.navbar-nav .nav-link,
+.nav-item {
+  color: #ffffff99;
+}
+.navbar-nav .nav-link:hover {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  transition: text-shadow 0.1s ease-in-out;
+  color: #fff;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item .nav-link:active {
+  font-weight: 500;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.navbar-nav .nav-item .nav-link:visited {
+  color: white;
+}
+.navbar-nav .nav-item {
+  color: #fff;
+}
+.dropdown-menu a:hover,
+a.sidebar-item:hover {
+  background: linear-gradient(30deg, #128eed, #b9ff66);
+  color: white;
+}
+a.sidebar-item.disabled {
+  color: #00000033;
+  pointer-events: none;
+  cursor: default;
+}
+#logoutbtn {
+  font-weight: 500;
+}
+#searchbtn {
+  text-decoration: none;
+}
+#searchbtn:hover,
+.nav-item .nav-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  transition: text-shadow 0.1s ease-in-out;
+}
+/* matches.html styles */
+#matches-neutral-body {
+  background-image: url("img/secondary-branch-background.jpg"); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+  padding-top: 70px;
+}
+/* HEAVY SIDEBAR CONTENT */
+#offcanvasScrolling {
+  z-index: 1020;
+  padding-top: 4.5em;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+#sidebar-button {
+  position: fixed;
+  color: #ffffff33;
+  z-index: 1000;
+  margin-left: 10px;
+}
+#sidebar-button:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+#sidebar-hide:hover {
+  color: #000000;
+}
+#sidebar-hide {
+  color: #00000033;
+}
+.sidebar-item {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+.profile-pic {
+  width: 80px;
+  border-radius: 100%;
+  margin: auto;
+}
+.chatbox-pic {
+  width: 50px;
+  border-radius: 100%;
+}
+.card {
+  box-shadow: 0 0 30px #00000088;
+  overflow: hidden;
+  transition: 100ms;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.img1 img {
+  width: 100%;
+  height: 200px;
+}
+.img2 img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin-top: -80px;
+}
+.card:hover .img2 img {
+  border-color: #128eed;
+}
+#matches-cards .card-body,
+#web-carousel .card-body {
+  text-align: center;
+}
+#matches-cards .card-body h2,
+#web-carousel .card-body h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.card-footer {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.card-footer i {
+  font-size: 20px;
+  color: grey;
+  padding: 0 10px;
+}
+#matches-cards > h1,
+#theweb-neutral-body > h1 {
+  font-weight: 900;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.offcanvas-body {
+  overflow-x: hidden;
+}
+.modal-header.with-picture {
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.modal-header.with-picture img {
+  display: none;
+}
+
+#headerAngie::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/profiles/Angie.jpg"); /* Set the image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#headerChristine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/profiles/Christine.jpg"); /* Set the image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#headerKayla::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/profiles/Kayla.jpg"); /* Set the image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#headerAntonio::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/profiles/Antonio.jpg"); /* Set the image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.modal-header.with-picture .btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.modal-header.with-picture .btn-close:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.modal-footer a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.modal-footer a:hover {
+  text-decoration: none;
+  font-weight: 500;
+}
+.modal-body h2 {
+  font-weight: 900;
+}
+#chat-modal .input-wrapper {
+  position: relative;
+}
+
+#chat-modal .input-wrapper input {
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+#chat-modal .input-wrapper .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.chat1,
+.chat2 {
+  max-width: 80%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 25px;
+  color: white;
+  box-shadow: 0 0 10px #ffffff55;
+}
+
+.chat1 {
+  background-color: #b9ff66;
+  float: left;
+}
+
+.chat2 {
+  background-color: #128eed;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+#chat-modal .modal-body {
+  background: linear-gradient(30deg, #7e0b0d, #0b4470);
+}
+#theweb-neutral-body {
+  background-image: url("img/web-branch-background.jpg"); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+  padding-top: 70px;
+}
+button.carousel-control-prev,
+button.carousel-control-next {
+  color: black;
+}
+.card-footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
+.card-footer a:hover {
+  color: #128eed;
+}
+.carousel-item .card-body > p {
+  height: 5rem;
+}
+.carousel-item .card-body > h2 {
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 500px) {
+  #happy {
+    height: 50px; /* Adjust the height as needed */
+  }
+  #phizap {
+    height: 25px; /* Adjust the height as needed */
+  }
+}
