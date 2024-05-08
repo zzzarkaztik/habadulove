@@ -417,3 +417,11 @@ button.carousel-control-next {
     height: 25px; /* Adjust the height as needed */
   }
 }
+
+audio {
+  position: fixed;
+  bottom: 20px; /* Adjust for desired distance from bottom */
+  right: 20px; /* Adjust for desired distance from right */
+  z-index: 3000;
+  opacity: 0.3;
+}
